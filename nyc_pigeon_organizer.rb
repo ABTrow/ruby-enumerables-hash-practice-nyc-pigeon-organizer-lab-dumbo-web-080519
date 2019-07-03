@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
           p "here am are"
           organized[name][key] = [value.to_s]
         else
+          p "here am me"
           organized[name][key].push(value.to_s)
         end
       end
