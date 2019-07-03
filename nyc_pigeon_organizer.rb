@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
         if !organized.has_key?(name)
           organized[name] = {}
         elsif !organized[name].has_key?(key)
-           organized[name][key] = [value.to_s]
+          p "here am are"
+          organized[name][key] = [value.to_s]
         else
           organized[name][key].push(value.to_s)
         end
