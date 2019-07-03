@@ -13,6 +13,8 @@ def nyc_pigeon_organizer(data)
             gender: [],
             lives: []
           }
+        else
+          organized[name] = 
         end
       end
     end
