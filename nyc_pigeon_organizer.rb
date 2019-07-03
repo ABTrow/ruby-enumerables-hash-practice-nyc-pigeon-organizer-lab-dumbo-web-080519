@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     data_values = data[key].keys
     data_values.each do |value|
       data[key][value].each do |name|
-        if !organized.has_key(name)
+        if !organized.has_key?(name)
           organized[name] = {
             color: [],
             gender: [],
