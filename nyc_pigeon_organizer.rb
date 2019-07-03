@@ -1,7 +1,6 @@
 def nyc_pigeon_organizer(data)
   organized = {}
   
-
   data.keys.each do |key|
     data[key].keys.each do |value|
       data[key][value].each do |name|
