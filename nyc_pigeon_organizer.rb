@@ -1,6 +1,10 @@
 def nyc_pigeon_organizer(data)
-  data_names = data.keys
-  data_names.each do |name|
-    p name
+  data_keys = data.keys
+  data_keys.each do |key|
+    data_values = data[key].keys
+    data_values.each do |value|
+      
+      
+    
   end
 end
