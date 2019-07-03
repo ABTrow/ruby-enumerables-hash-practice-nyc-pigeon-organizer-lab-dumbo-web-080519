@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
             lives: []
           }
         else
-          organized[name] = [key]
+          organized[name][key] = [value]
         end
       end
     end
