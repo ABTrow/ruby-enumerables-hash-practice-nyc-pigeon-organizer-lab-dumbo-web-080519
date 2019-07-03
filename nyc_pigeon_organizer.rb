@@ -9,7 +9,8 @@ def nyc_pigeon_organizer(data)
       data[key][value].each do |name|
         if !organized.has_key?(name)
           organized[name] = {}
-        elsif !organized[name].has_key?(key)
+        end
+        if !organized[name].has_key?(key)
           p organized[name]
           organized[name][key] = [value.to_s]
         else
