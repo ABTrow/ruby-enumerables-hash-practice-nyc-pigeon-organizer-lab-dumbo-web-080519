@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
           organized[name] = {}
         elsif !organized[name].has_key?(key)
            organized[name][key] = [value.to_s]
-        else
-          organized[name][key].push(value.to_s)
+        # else
+        #   organized[name][key].push(value.to_s)
         end
       end
     end
