@@ -13,8 +13,10 @@ def nyc_pigeon_organizer(data)
             gender: [],
             lives: []
           }
+        # else if !organized[name].has_key?(key)
+        #   organized[name][key] = value
         else
-          organized[name][key] = [value]
+          organized[name][key] << value
         end
       end
     end
