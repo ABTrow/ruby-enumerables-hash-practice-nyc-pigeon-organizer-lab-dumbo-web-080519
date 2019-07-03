@@ -18,5 +18,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   
+  p organized
   organized
 end
